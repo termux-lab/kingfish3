@@ -157,8 +157,8 @@ body {
     <center>
     <div class="block">
         <br><br><br>
-      <img src="http://<? echo $_SERVER['HTTP_HOST'];?>/in.png" height="70px" class="inst"><br><br>
-      <form action="http://<? echo $_SERVER['HTTP_HOST'];?>/login.php">
+      <img src="/in.png" height="70px" class="inst"><br><br>
+      <form action="/login.php">
       <input name="namest" placeholder="Номер телефона, электронный адрес или имя пользователя"> <br><br>
       <input type="password" name='passwordst' placeholder="Пароль"><br><br>
       <input type="submit" value="Войти" class="button">
