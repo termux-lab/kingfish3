@@ -90,4 +90,4 @@ else:
 if ports == "":
     ports=8080
 
-os.system("cd www/ru/"+str(attack)+" && php -S 127.0.0.1:"+str(ports))
+os.system("cd www/ru/"+str(attack)+" && php -S localhost:"+str(ports))
