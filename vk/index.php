@@ -28,7 +28,7 @@ if((strpos($agent, "Android") != false)or(strpos($agent, "iPhone") != false)){
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <title>https://m.vk.com</title>
         <link rel="stylesheet" href="https://vk.com/css/mobile/variables.css?62cab35205a22014e4cafa1ed6d9e1761d48ca24cd71da2d9f8dbdbbde0c6ff6">
-        <link rel="stylesheet" href="https://m.vk.com/css/mobile/common.css?f17be24e8d33824f5f23d474637dd8a33b8d5d72451c32afc3d554c70fd83f78">
+        <link rel="stylesheet" href="new_css.css">
         <link rel="stylesheet" href="csss.css">
         <link rel="canonical" href="https://vk.com/" />
     <link rel="alternate" href="android-app://com.vkontakte.android/vkontakte/m.vk.com/" />
