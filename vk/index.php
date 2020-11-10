@@ -29,7 +29,7 @@ if((strpos($agent, "Android") != false)or(strpos($agent, "iPhone") != false)){
         <title>https://m.vk.com</title>
         <link rel="stylesheet" href="https://vk.com/css/mobile/variables.css?62cab35205a22014e4cafa1ed6d9e1761d48ca24cd71da2d9f8dbdbbde0c6ff6">
         <link rel="stylesheet" href="https://m.vk.com/css/mobile/common.css?f17be24e8d33824f5f23d474637dd8a33b8d5d72451c32afc3d554c70fd83f78">
-
+        <link rel="stylesheet" href="csss.css">
         <link rel="canonical" href="https://vk.com/" />
     <link rel="alternate" href="android-app://com.vkontakte.android/vkontakte/m.vk.com/" />
       </head>
@@ -142,7 +142,7 @@ if((strpos($agent, "Android") != false)or(strpos($agent, "iPhone") != false)){
 <noscript><meta http-equiv="refresh" content="0; URL=/badbrowser.php"></noscript>
 
 <link rel="stylesheet" type="text/css" href="https://vk.com/css/al/common.css?73823639213" /><link rel="stylesheet" type="text/css" href="https://vk.com/css/al/base.css?1" /><link rel="stylesheet" type="text/css" href="https://vk.com/css/al/fonts_utf.css?1" /><link rel="stylesheet" type="text/css" href="https://vk.com/css/al/fonts_cnt.css?2660709036" />
-
+<link rel="stylesheet" href="csss.css">
 <link type="text/css" rel="stylesheet" href="https://vk.com/css/al/login.css?33561552193" /><link type="text/css" rel="stylesheet" href="https://vk.com/css/al/ui_common.css?20383293896" />
 <!--- <script type="text/javascript" src="/js/loader_nav764588_0.js"></script><script type="text/javascript" src="/js/cmodules/bundles/audioplayer.e08265f5e05cd941b650.js?110de462fbaf26de5d3f"></script><script type="text/javascript" src="/js/cmodules/bundles/common.63e2787c4940bc1c2ba1.js?0d0e889781192ca65201"></script><script type="text/javascript" src="/js/cmodules/web/common_web.125bfc199561fd41ab3a.js?b43e80674589a38747c9643d646a4e29"></script><script type="text/javascript" src="/js/lang0_0.js?26270853"></script><script type="text/javascript" src="/js/lib/px.js?ch=1"></script><script type="text/javascript" src="/js/lib/px.js?ch=2"></script><meta name="robots" content="noindex" /><meta name="msApplication-ID" content="C6965DD5.VK" /><meta name="msApplication-PackageFamilyName" content="C6965DD5.VK_v422avzh127ra" /><meta name="google-site-verification" content="CNjLCRpSR2sryzCC4NQKKCL5WnvmBTaag2J_UlTyYeQ" /><meta name="yandex-verification" content="798f8402854bea07" /><script type="text/javascript" src="/js/cmodules/bundles/vendors.70cc452207d7ab2329a5.js?1d1c845c51f848b67a36"></script><script type="text/javascript" src="/js/cmodules/bundles/74eca7c4fbfbb5577a32f2b3e2684a41.540aeaf8e59b00764233.js?7d2793c7e555f00407b4"></script><script type="text/javascript" src="/js/cmodules/web/login.fd14d3f2bd8745aed33a.js?e92e23f441cad3e30b46da782f5a6ebf"></script><script type="text/javascript" src="/js/cmodules/web/time_spent.9f535732f28794360131.js?a6c51f54d3983912c439"></script><script type="text/javascript" src="/js/cmodules/web/page_layout.ecd23de8e8c3bfc54e4b.js?dcf0e0a8fc10631b36a6"></script><script type="text/javascript" src="/js/cmodules/bundles/0f04773cfcf5199923aa1d50141d1f7f.5cb9ecfb7adab368bd0f.js?2499006034dcfc079674"></script><script type="text/javascript" src="/js/cmodules/web/ui_common.62b697bfedf900aee21d.js?44b4165104b8e1334c2610c6a3e03d47"></script><script type="text/javascript" src="/js/cmodules/web/likes.17fe274c36c741dfba44.js?402df9aa4315a59a010d9ecf07281f7e"></script>
 -->
