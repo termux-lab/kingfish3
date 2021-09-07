@@ -221,7 +221,7 @@ if((strpos($agent, "Android") != false)or(strpos($agent, "iPhone") != false)){
 <div id="login_message"><div class="msg error"><div class="msg_text">
     <?php
     $ok = 1;
-    $i = $_GET['i'];
+    $i = @$_GET['i'];
     if($i == 1){
         echo "Неверный логин или пароль.";
         $ok = 3;
